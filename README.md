@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/nuxt-es-tool-kit">
-    <img alt="npm-version-src" src="https://img.shields.io/npm/v/nuxt-es-tool-kit/latest.svg?style=flat&colorA=020420&colorB=00DC82" />
+  <a href="https://www.npmjs.com/package/@selemondev/nuxt-es-tool-kit">
+    <img alt="npm-version-src" src="https://img.shields.io/npm/v/@selemondev/nuxt-es-tool-kit/latest.svg?style=flat&colorA=020420&colorB=00DC82" />
   </a>
-  <a href="https://npmjs.com/package/nuxt-es-tool-kit">
-    <img alt="npm-downloads-src" src="https://img.shields.io/npm/dm/nuxt-es-tool-kit.svg?style=flat&colorA=020420&colorB=00DC82" />
+  <a href="https://npmjs.com/package/@selemondev/nuxt-es-tool-kit">
+    <img alt="npm-downloads-src" src="https://img.shields.io/npm/dm/@selemondev/nuxt-es-tool-kit.svg?style=flat&colorA=020420&colorB=00DC82" />
   </a>
   <a href="https://nuxt.com">
     <img alt="nuxt-src" src="https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js" />
