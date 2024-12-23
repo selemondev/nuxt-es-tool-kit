@@ -19,7 +19,7 @@
 
 ## Demo
 
-### Play with it on [Stackblitz](https://stackblitz.com/edit/nuxt-starter-2rrjst?file=app.vue)
+### Play with it on [Stackblitz](https://stackblitz.com/edit/nuxt-starter-oexse8ae?file=app.vue)
 
 ## Quick Setup
 
