@@ -26,7 +26,7 @@
 1. Install the module in your Nuxt application with one command:
 
 ```bash
-npx nuxi@latest module add nuxt-es-tool-kit
+npx nuxi@latest module add @selemondev/nuxt-es-tool-kit
 ```
 
 That's it! You can now use `nuxt-es-tool-kit` in your Nuxt application ✨.
