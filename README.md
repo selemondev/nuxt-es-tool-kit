@@ -41,7 +41,7 @@ Below is how you can configure and use them in your Nuxt 3 project:
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-es-tool-kit'],
+  modules: ['@selemondev/nuxt-es-tool-kit'],
   devtools: { enabled: true },
   esToolkit: {
     prefix: 'use',
