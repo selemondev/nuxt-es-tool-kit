@@ -29,11 +29,11 @@
 npx nuxi@latest module add @selemondev/nuxt-es-tool-kit
 ```
 
-That's it! You can now use `nuxt-es-tool-kit` in your Nuxt application ✨.
+That's it! You can now use the `@selemondev/nuxt-es-tool-kit` module in your Nuxt application ✨.
 
 ## Configuration
 
-The `nuxt-es-tool-kit` module allows you to add prefixes, aliases and utilities.
+The `@selemondev/nuxt-es-tool-kit` module allows you to add prefixes, aliases and utilities.
 
 All the modules are supported except the `compat` module as it clashes with the other modules. The so called `compat` module has APIs that are supported natively by JavaScript.
 
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
 
 ```
 
-When using the `head` utility, you might encounter a warning in your console that states: `Duplicated imports "useHead", the one from "@unhead/vue" has been ignored and es-toolkit-array is used`. This warning occurs because `nuxt-es-tool-kit` array module exports a utility known as `head` and when used together with the `use` prefix it clashes with the `useHead` utility provided by `@unhead/vue`.
+When using the `head` utility, you might encounter a warning in your console that states: `Duplicated imports "useHead", the one from "@unhead/vue" has been ignored and es-toolkit-array is used`. This warning occurs because `@selemondev/nuxt-es-tool-kit` array module exports a utility known as `head` and when used together with the `use` prefix it clashes with the `useHead` utility provided by `@unhead/vue`.
 
 To resolve this issue you can do either of the following:
 
@@ -103,7 +103,7 @@ const result = useFlattenArr(array, 2)
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-es-tool-kit'],
+  modules: ['@selemondev/nuxt-es-tool-kit'],
   devtools: { enabled: true },
   esToolkit: {
     prefix: 'use',
@@ -132,7 +132,7 @@ const result = useKebabCase('some whitespace')
 
 ```ts
 export default defineNuxtConfig({
-  modules: ['nuxt-es-tool-kit'],
+  modules: ['@selemondev/nuxt-es-tool-kit'],
   devtools: { enabled: true },
   esToolkit: {
     utilities: ['predicate'],
