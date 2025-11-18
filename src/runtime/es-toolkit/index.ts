@@ -17,5 +17,5 @@ export {
   esToolkitPromise,
   esToolkitString,
   esToolkitUtil,
-  esToolkitError
+  esToolkitError,
 }
