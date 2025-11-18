@@ -6,6 +6,7 @@ import * as esToolkitPredicate from './es-toolkit-predicate'
 import * as esToolkitPromise from './es-toolkit-promise'
 import * as esToolkitString from './es-toolkit-string'
 import * as esToolkitUtil from './es-toolkit-util'
+import * as esToolkitError from './es-toolkit-error'
 
 export {
   esToolkitArray,
@@ -16,4 +17,5 @@ export {
   esToolkitPromise,
   esToolkitString,
   esToolkitUtil,
+  esToolkitError
 }
