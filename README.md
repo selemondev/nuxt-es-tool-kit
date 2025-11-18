@@ -52,7 +52,7 @@ export default defineNuxtConfig({
 
 ```
 
-When using the `head` utility, you might encounter a warning in your console that states: `Duplicated imports "useHead", the one from "@unhead/vue" has been ignored and es-toolkit-array is used`. This warning occurs because `@selemondev/nuxt-es-tool-kit` array module exports a utility known as `head` and when used together with the `use` prefix it clashes with the `useHead` utility provided by `@unhead/vue`.
+When using the `head` or `isError` utility, you might encounter a warning in your console that states that there is a duplicated import. This warning occurs because `@selemondev/nuxt-es-tool-kit` array and predicate module export a utility known as `head` and `isError` respectively and when used with the `use` prefix ( for head ) it clashes with the `useHead` utility provided by `@unhead/vue` and `isError` ( without the `use` prefix ) clashes with `h3`.
 
 To resolve this issue you can do either of the following:
 
@@ -64,9 +64,12 @@ To resolve this issue you can do either of the following:
     ...
     alias: [
       ['head', 'headArr'],
+      ['isError', 'isEsToolkitError'],
     ],
 },
 ```
+
+We strongly recommend you provide an alias for the `isError` utility as shown above.
 
 2. Use a different prefix other than `use`.
 
