@@ -200,3 +200,7 @@ Below are the types of the `esToolkit` config:
 
 
 Happy hacking ✨.
+
+## License
+
+[MIT](./LICENSE) © [Selemon Brahanu](https://selemon.dev)
